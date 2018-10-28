@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4389767811255368}
   - component: {fileID: 212903368956203268}
   - component: {fileID: 60130085829730720}
+  - component: {fileID: 114905181754323080}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Untagged
@@ -193,6 +194,17 @@ PolygonCollider2D:
       - {x: 0.073363945, y: 0.49458843}
       - {x: 0.0490072, y: 0.4975925}
       - {x: 0.02453239, y: 0.49939778}
+--- !u!114 &114905181754323080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1953042663038004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2394d157ee7f949b49f00d62f73cdc97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212903368956203268
 SpriteRenderer:
   m_ObjectHideFlags: 1
