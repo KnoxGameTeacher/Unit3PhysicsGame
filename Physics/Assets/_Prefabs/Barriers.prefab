@@ -404,6 +404,7 @@ GameObject:
   - component: {fileID: 4924058198047104}
   - component: {fileID: 212836468009312476}
   - component: {fileID: 61385318375147660}
+  - component: {fileID: 114623752413456672}
   m_Layer: 0
   m_Name: DeathBarrier
   m_TagString: Untagged
@@ -915,6 +916,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114623752413456672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902210972074946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43988c1eefc147e6bdd7dadde5e70db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212020762199176606
 SpriteRenderer:
   m_ObjectHideFlags: 1
