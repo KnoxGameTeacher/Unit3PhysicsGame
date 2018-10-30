@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4850461478178606}
   - component: {fileID: 212939376598579932}
   - component: {fileID: 61909911910671816}
+  - component: {fileID: 114948239442603702}
   m_Layer: 0
   m_Name: GreenRobot
   m_TagString: Untagged
@@ -66,6 +67,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.471008, y: 0.8801222}
   m_EdgeRadius: 0
+--- !u!114 &114948239442603702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1711025183827560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d01e81f65187477c9e5d5aca6a98371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBreakable: 1
+  electricityVFX: {fileID: 1058325498707994, guid: 8333d50130027574ca8b4e0268fdd047,
+    type: 2}
+  explosionSFX: {fileID: 8300000, guid: afdc9e36803d04b5ea60df54befc9505, type: 3}
 --- !u!212 &212939376598579932
 SpriteRenderer:
   m_ObjectHideFlags: 1
