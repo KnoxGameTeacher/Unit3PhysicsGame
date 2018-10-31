@@ -185,9 +185,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ed6d2ecfc6c4862844cf524aaab282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddle: {fileID: 114836703756984884, guid: d62404d5ee36740c1a72d7d0c98e2b2f, type: 2}
+  paddle: {fileID: 0}
   xVelocity: 2
-  yVelocity: 25
+  yVelocity: 20
 --- !u!212 &212854028366803022
 SpriteRenderer:
   m_ObjectHideFlags: 1

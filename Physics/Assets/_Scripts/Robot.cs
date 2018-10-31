@@ -8,13 +8,37 @@ public class Robot : MonoBehaviour
     [SerializeField] bool isBreakable = false;
     [SerializeField] GameObject electricityVFX;
     [SerializeField] AudioClip explosionSFX;
+    [SerializeField] int maxHits;
+    [SerializeField] int timesHit;
+    [SerializeField] Sprite[] damageSprite;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(isBreakable == true)
         {
+            GetHit();
+
+        }
+    }
+
+    private void GetHit()
+    {
+        timesHit++;
+        if (timesHit >= maxHits)
+        {
             DestroyBlock();
         }
+        else
+        {
+            NextDamageSprite();
+        }
+    }
+
+    private void NextDamageSprite()
+    {
+        int spriteIndex = timesHit - 1;
+        GetComponent<SpriteRenderer>().sprite = damageSprite[spriteIndex];
+
     }
 
     private void DestroyBlock()

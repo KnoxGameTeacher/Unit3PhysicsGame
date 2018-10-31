@@ -82,6 +82,9 @@ MonoBehaviour:
   electricityVFX: {fileID: 1058325498707994, guid: 8333d50130027574ca8b4e0268fdd047,
     type: 2}
   explosionSFX: {fileID: 8300000, guid: afdc9e36803d04b5ea60df54befc9505, type: 3}
+  maxHits: 1
+  timesHit: 0
+  damageSprite: []
 --- !u!212 &212939376598579932
 SpriteRenderer:
   m_ObjectHideFlags: 1
