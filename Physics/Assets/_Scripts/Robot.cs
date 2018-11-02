@@ -43,7 +43,7 @@ public class Robot : MonoBehaviour
 
     private void DestroyBlock()
     {
-
+        FindObjectOfType<_LevelManager>().AddToScore();
         GameObject electricity = Instantiate(electricityVFX, transform.position, transform.rotation);
         AudioSource.PlayClipAtPoint(explosionSFX, Camera.main.transform.position);
         Destroy(gameObject);
