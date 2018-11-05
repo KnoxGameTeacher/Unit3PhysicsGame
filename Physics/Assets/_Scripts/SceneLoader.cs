@@ -15,6 +15,7 @@ public class SceneLoader : MonoBehaviour {
     public void PlayAgain()
     {
         SceneManager.LoadScene(0);
+        FindObjectOfType<_LevelManager>().ResetGame();
     }
 
     public void QuitGame()

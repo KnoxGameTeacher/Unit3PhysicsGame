@@ -47,4 +47,11 @@ public class _LevelManager : MonoBehaviour {
         scoreText.text = currentScore.ToString();
     }
 
+    public void ResetGame()
+    {
+        //currentScore = 0;
+        //UpdateScore();
+        Destroy(gameObject);
+    }
+
 }

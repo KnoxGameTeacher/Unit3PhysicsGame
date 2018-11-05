@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61909911910671816}
   - component: {fileID: 114508734737419334}
   m_Layer: 0
-  m_Name: RedRobot
+  m_Name: BigBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711025183827560}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.38, y: 3.34, z: 9.899324}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.86, y: 7.5, z: 9.899324}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,7 +54,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006038487, y: -0.009194374}
+  m_Offset: {x: -0.014034629, y: 0.014793724}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -65,7 +65,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.471008, y: 0.8801222}
+  m_Size: {x: 1.710891, y: 1.1839747}
   m_EdgeRadius: 0
 --- !u!114 &114508734737419334
 MonoBehaviour:
@@ -82,11 +82,12 @@ MonoBehaviour:
   electricityVFX: {fileID: 1058325498707994, guid: 8333d50130027574ca8b4e0268fdd047,
     type: 2}
   explosionSFX: {fileID: 8300000, guid: afdc9e36803d04b5ea60df54befc9505, type: 3}
-  maxHits: 3
+  maxHits: 4
   timesHit: 0
   damageSprite:
   - {fileID: 21300000, guid: 3d7409e988a9848cc994eac316d85fc4, type: 3}
   - {fileID: 21300000, guid: 4d751a06e96e646339313ce0afd83073, type: 3}
+  - {fileID: 21300000, guid: 684c8f842852c46e69407ac424fc0f49, type: 3}
 --- !u!212 &212939376598579932
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -123,7 +124,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e675c1184f7d3474387cc2ba4f028b42, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.759434, b: 0.759434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
